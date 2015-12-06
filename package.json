@@ -4,12 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start": "http-server . -p 3000 & NODE_PATH=node_modules:. watchify -e index.js -t babelify -t stringify -o bundle.js -v",
+    "build": "NODE_PATH=node_modules:. browserify -e index.js -t babelify -t stringify > dist.js",
+    "component": "mkdir ./components/$NAME && touch ./components/$NAME/$NAME.js ./components/$NAME/$NAME.html"
   },
   "author": "Alexey Raspopov",
   "license": "MIT",
   "devDependencies": {
+    "babelify": "~6.4.0",
+    "http-server": "~0.8.5",
+    "stringify": "~3.2.0",
     "watchify": "~3.6.1"
   },
   "dependencies": {
+    "angular": "~1.4.8"
   }
 }
