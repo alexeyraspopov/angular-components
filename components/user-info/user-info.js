@@ -7,5 +7,5 @@ export default DIRECTIVE_NAME;
 
 App.directive(DIRECTIVE_NAME, () => ({
 	scope: {user: '='},
-	template: userInfoTemplate
+	template: userInfoTemplate,
 }));
