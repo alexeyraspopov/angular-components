@@ -6,7 +6,7 @@ Install the app.
 	cd angular-components
 	npm install
 
-Start the app ([localhost:3000](http://localhost:3000)).
+Start the app on [localhost:3000](http://localhost:3000).
 
 	npm start
 
