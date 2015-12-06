@@ -1,0 +1,15 @@
+{
+  "name": "angular-components",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "author": "Alexey Raspopov",
+  "license": "MIT",
+  "devDependencies": {
+    "watchify": "~3.6.1"
+  },
+  "dependencies": {
+  }
+}
