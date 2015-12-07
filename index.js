@@ -1,4 +1,4 @@
-import App from 'App';
+import App from 'lib/App';
 import appRoot from 'components/app-root/app-root';
 
 App.config(['$stateProvider', '$urlRouterProvider', '$locationProvider', ($stateProvider, $urlRouterProvider, $locationProvider) => {

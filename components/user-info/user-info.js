@@ -1,4 +1,4 @@
-import App from 'App';
+import App from 'lib/App';
 import userInfoTemplate from './user-info.html';
 
 const DIRECTIVE_NAME = 'userInfo';

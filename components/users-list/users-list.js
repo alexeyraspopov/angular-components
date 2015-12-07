@@ -1,4 +1,4 @@
-import App from 'App';
+import App from 'lib/App';
 import 'components/user-info/user-info'
 import usersListTemplate from './users-list.html';
 

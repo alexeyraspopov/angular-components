@@ -1,4 +1,4 @@
-import App from 'App';
+import App from 'lib/App';
 import 'components/users-list/users-list';
 import appRootTemplate from './app-root.html';
 
