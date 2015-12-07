@@ -1,8 +1,8 @@
 import App from 'lib/App';
 import Observe from 'lib/Observe';
 import UsersService from 'services/UsersService';
-import 'components/users-list/users-list';
 import appRootTemplate from './app-root.html';
+import 'components/users-list/users-list';
 
 const DIRECTIVE_NAME = 'appRoot';
 

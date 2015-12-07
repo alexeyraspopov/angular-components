@@ -1,6 +1,6 @@
 import App from 'lib/App';
-import 'components/user-info/user-info'
 import usersListTemplate from './users-list.html';
+import 'components/user-info/user-info';
 
 const DIRECTIVE_NAME = 'usersList';
 
