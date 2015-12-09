@@ -16,7 +16,7 @@ App.directive(DIRECTIVE_NAME, [UsersService, (Users) => ({
 			users: Users.all(),
 		}, $scope);
 
-		$scope.onUserSelect = user => console.dir(user);
+		$scope.onUserSelect = user => void 0;
 		$scope.append = () => $scope.users.push({name: 'Olga', isOnline: true});
 	},
 })]);

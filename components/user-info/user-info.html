@@ -1,4 +1,4 @@
 <article>
-	<p>{{ user.name }}</p>
+	<p ui-sref="home.user({userId: user.id})">{{ user.name }}</p>
 	<p><em>{{ user.isOnline && 'Online' }}</em></p>
 </article>
